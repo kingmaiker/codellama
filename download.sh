@@ -4,7 +4,7 @@
 # This software may be used and distributed according to the terms of the Llama 2 Community License Agreement.
 
 read -p "Enter the URL from email: " PRESIGNED_URL
-echo ""
+echo "https://download2.llamameta.net/*?Policy=eyJTdGF0ZW1lbnQiOlt7InVuaXF1ZV9oYXNoIjoiN3ZiOTE3Z2xjMTY4OGVxb2RzdmY5OTlsIiwiUmVzb3VyY2UiOiJodHRwczpcL1wvZG93bmxvYWQyLmxsYW1hbWV0YS5uZXRcLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2OTMzODA4MTJ9fX1dfQ__&Signature=FfE9MpJQ5a2M6UooqQIevFLo1KJMC-WDgmwWfGEEs%7EIP6JE%7EDcufWrGeSE3XyHBrLcQIRBLqV%7EoP7C7hPgfom%7EovvSKVfEhQ-BdRqehq4wRmw7cldWNQTsFOhK30DvVXoYS11zahEbmYPnUL5rA0FeVAujFtHwd%7EUorscwmacCrDDGR3hJ0rlUihiiX6pPuAs1KeynSabxvdQKor6kXpBsr3QSBKtD9GlvxvaQqgwHpUANXpmhp6tmpQtlRFGalPHW5b21-CQjwhgeFOPP64JSxjsy9PSCuODsxKMWcQxJ896uY66JT1K2qXDKy8ndspvXCuCAbDh4hc2z%7EZx9YJNw__&Key-Pair-Id=K15QRJLYKIFSLZ&Download-Request-ID=628193769379340"
 ALL_MODELS="7b,13b,34b,7b-Python,13b-Python,34b-Python,7b-Instruct,13b-Instruct,34b-Instruct"
 read -p "Enter the list of models to download without spaces ($ALL_MODELS), or press Enter for all: " MODEL_SIZE
 TARGET_FOLDER="."             # where all files should end up
